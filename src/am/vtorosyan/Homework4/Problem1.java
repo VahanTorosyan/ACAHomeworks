@@ -1,4 +1,4 @@
-package am.vtorosyan;
+package am.vtorosyan.Homework4;
 
 public class Problem1 {
     public static void main(String[] args) {
