@@ -10,12 +10,16 @@ public class Problem5 {
         int x = scanner.nextInt();
         System.out.print("Input 2nd number : ");
         int y = scanner.nextInt();
+        int sum = 0;
         System.out.println("Numbers between" + x + " and " + y + ", divisible by 9:");
         while (x <= y) {
             if (x % 9 == 0) {
                 System.out.print(x + " ");
+                sum += x;
             }
             x++;
         }
+        System.out.println();
+        System.out.println("Sum of these numbers is : " + sum);
     }
 }
