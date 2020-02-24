@@ -13,7 +13,7 @@ public class Problem11 {
         if (n <= 1) {
             System.out.println("Please enter any positive numbers from 2");
 
-        }else {
+        } else {
             while (i < n / 2) {
                 if (n % i == 0) {
                     condition = true;
