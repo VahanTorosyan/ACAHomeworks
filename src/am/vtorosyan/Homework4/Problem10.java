@@ -10,10 +10,9 @@ public class Problem10 {
         int n = scanner.nextInt();
         int pv = 0;
         int nxt = 1;
-        int fib = 0;
+        int fib;
         int i = 1;
         while (i <= n) {
-            //System.out.print(n1 + " ");
             fib = pv + nxt;
             pv = nxt;
             nxt = fib;
