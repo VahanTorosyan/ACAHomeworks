@@ -1,4 +1,4 @@
-package am.vtorosyan.Homework4;
+package VahanTorosyan_ACAHomeworks.Homework4;
 
 import java.util.Scanner;
 
