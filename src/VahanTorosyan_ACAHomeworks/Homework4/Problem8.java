@@ -14,7 +14,11 @@ public class Problem8 {
         while (i <= n) {
             if (i % 2 == 0) {
                 sum -= i;
-                System.out.print(i + " + " );
+                if (i < n) {
+                    System.out.print(i + " + ");
+                } else {
+                    System.out.print(i + " = ");
+                }
             } else {
                 sum += i;
                 if (i != n) {
@@ -28,3 +32,4 @@ public class Problem8 {
         System.out.print(sum);
     }
 }
+
