@@ -8,6 +8,10 @@ public class Problem2 {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int[] array = new int[n];
+        for (int i = 0; i < n; i++) {
+            System.out.print("Input element " + i + " : ");
+            array[i] = scanner.nextInt();
+        }
 
     }
 }
